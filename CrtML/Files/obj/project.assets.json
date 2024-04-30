@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "CalendarBase/8.1.2.3842": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "compile": {
+          "bin/placeholder/CalendarBase.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CalendarBase.dll": {}
+        }
+      },
+      "CrtBaseConsts/8.1.2.3842": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "compile": {
+          "bin/placeholder/CrtBaseConsts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrtBaseConsts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalendarBase/8.1.2.3842": {
+      "type": "project",
+      "path": "../../CalendarBase/Files/CalendarBase.csproj",
+      "msbuildProject": "../../CalendarBase/Files/CalendarBase.csproj"
+    },
+    "CrtBaseConsts/8.1.2.3842": {
+      "type": "project",
+      "path": "../../CrtBaseConsts/Files/CrtBaseConsts.csproj",
+      "msbuildProject": "../../CrtBaseConsts/Files/CrtBaseConsts.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "CalendarBase >= 8.1.2.3842",
+      "CrtBaseConsts >= 8.1.2.3842"
+    ]
+  },
+  "packageFolders": {
+    "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_DefaultAppPool\\Default\\dotnet\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "8.1.2.3842",
+    "restore": {
+      "projectUniqueName": "C:\\CreatioAcademy\\DB_Studio\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\CrtML\\Files\\CrtML.csproj",
+      "projectName": "CrtML",
+      "projectPath": "C:\\CreatioAcademy\\DB_Studio\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\CrtML\\Files\\CrtML.csproj",
+      "packagesPath": "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_DefaultAppPool\\Default\\dotnet\\.nuget\\packages\\",
+      "outputPath": "C:\\CreatioAcademy\\DB_Studio\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\CrtML\\Files\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_DefaultAppPool\\Default\\dotnet\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {
+            "C:\\CreatioAcademy\\DB_Studio\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\CalendarBase\\Files\\CalendarBase.csproj": {
+              "projectPath": "C:\\CreatioAcademy\\DB_Studio\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\CalendarBase\\Files\\CalendarBase.csproj"
+            },
+            "C:\\CreatioAcademy\\DB_Studio\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\CrtBaseConsts\\Files\\CrtBaseConsts.csproj": {
+              "projectPath": "C:\\CreatioAcademy\\DB_Studio\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\CrtBaseConsts\\Files\\CrtBaseConsts.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.421\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
